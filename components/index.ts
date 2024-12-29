@@ -1,12 +1,19 @@
-import Hero from './Hero';
-import CustomButton from './CustomButton';
-import Footer from './Footer';
-import Navbar from './Navbar';
+import {default as CarCard} from "./CarCard";
+import {default as CustomButton} from "./CustomButton";
+import {default as CustomFilter} from "./CustomFilter";
+import {default as Footer} from "./Footer";
+import {default as NavBar} from "./Navbar";
+import {default as ShowMore} from "./ShowMore";
+import {default as SearchBar} from "./Searchbar";
+import {default as Hero} from "./Hero";
 
-// https://www.youtube.com/watch?v=pUNSHPyVryU
 export {
   Hero,
   CustomButton,
-  Navbar,
+  CustomFilter,
   Footer,
+  NavBar,
+  ShowMore,
+  SearchBar,
+  CarCard
 };
